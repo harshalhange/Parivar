@@ -1,0 +1,6 @@
+{
+  "name": "Parivar Furniture",
+  "description": "Premium Sheesham Wood Furniture Store with real-time Firestore catalog, secure auth, AI room consultant, cart, and WhatsApp orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
