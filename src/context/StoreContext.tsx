@@ -91,8 +91,10 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   useEffect(() => {
     localStorage.setItem('parivar_dark', darkMode ? '1' : '0');
     if (darkMode) {
+      document.documentElement.classList.add('dark');
       document.body.classList.add('dark-mode');
     } else {
+      document.documentElement.classList.remove('dark');
       document.body.classList.remove('dark-mode');
     }
   }, [darkMode]);
